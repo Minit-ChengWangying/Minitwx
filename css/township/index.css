@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.flex {
+    display: flex;
+}
+.cloumn {
+    flex-direction: column;
+}
+body {
+    background-color: #f0f0f0;
+}
+.title-container {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    height: 66px;
+    background-color: #fff;
+    /* box-shadow: 0px 6px 7px rgba(79 ,79 ,79 ,0.2); */
+    border-bottom: 1px solid #bdc3c7;
+}
+.title-container .logo {
+    width: 160px;
+    height: 60px;
+    background: url(https://minitbeijingproduction.oss-cn-beijing.aliyuncs.com/Minit/LOGO/%E7%BD%91%E7%AB%99%E4%B8%93%E7%94%A8.png) no-repeat;
+    background-size: 100% 100%;
+    margin: 5px auto;
+}
+.content-container {
+    width: 100%;
+    margin-top: 66px;
+    background-color: #fff;
+    padding: 15px 0 30px 10px;
+}
+.content-container h2 {
+    font-size: 20pt;
+    letter-spacing: 2px;
+}
+.content-container p {
+    text-indent: 2em;
+    margin-top: 5px;
+    font-size: 15pt;
+    width: 96%;
+}
